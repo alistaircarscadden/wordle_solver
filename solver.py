@@ -107,9 +107,6 @@ if __name__ == '__main__':
     hist = word_list_histogram(wl)
     wl = score_and_sort_word_list(hist, wl)
 
-    print(wl[:50])
-    exit()
-
     # how often will print 10% done etc.
     update_step = len(wl) // 10
 
